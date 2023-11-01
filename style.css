@@ -1,16 +1,37 @@
-.bottom-container {
-  padding: 50px 20px;
-  text-align: end;
-}
+body { 
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	}
 
-.intro {
-  width: 50%;
-  margin: auto;
-  display: block;
-}
+  h1{
+  font-display: initial;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  }
+ 
+  h2{
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+  }
 
-img {
-  display: block;
-  width: 50%;
-  margin: auto;
-}
+  p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  footer {
+    padding: 50px 20px;
+    text-align: end;
+  }
+  
+  .intro {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    
+  }
