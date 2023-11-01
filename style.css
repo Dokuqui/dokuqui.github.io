@@ -147,3 +147,8 @@ body {
     text-align: left;
     row-gap: 2rem;
   }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
