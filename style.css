@@ -165,3 +165,93 @@ body {
   color: #666;
 }
 
+#about {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-image img {
+  max-width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.bio h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.bio p {
+  font-size: 16px;
+  color: #666;
+}
+#biography {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#biography h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.biography-content {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.biography-text {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.biography-text h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.biography-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.hobbies {
+  text-align: left;
+}
+
+.hobbies h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.hobbies ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.hobbies li {
+  font-size: 16px;
+  color: #666;
+}
