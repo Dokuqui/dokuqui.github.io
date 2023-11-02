@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20vh;
 }
 
 .button {
@@ -206,7 +206,7 @@ body {
 }
 
 .profile-image img {
-  max-width: 800px;
+  max-width: 1600px;
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -275,4 +275,53 @@ body {
 .hobbies li {
   font-size: 16px;
   color: #666;
+}
+
+#portfolio {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.project {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.project p {
+  font-size: 16px;
+  color: #666;
+}
+
+.project a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.project a:hover {
+  background-color: #005bb6;
+}
+
+.project img {
+  max-width: 100%;
 }
