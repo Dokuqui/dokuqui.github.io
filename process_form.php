@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Use the mail() function to send the email
     if (mail($to, $subject, $email_message, $headers)) {
         // If the email is sent successfully, redirect to a thank you page
-        header("Location: thank_you.html"); // Replace with the actual URL of your thank you page
+        header("Location: thank_you.html");
     } else {
         // If there's an issue with sending the email, handle the error as needed
         echo "Sorry, there was a problem sending your message. Please try again later.";
