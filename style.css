@@ -77,6 +77,11 @@ body {
    font-size: 16px;
    color: #666;
 }
+.email-address {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
 
  form {
    max-width: 400px;
