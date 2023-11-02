@@ -185,23 +185,23 @@ body {
 }
 
 .profile-image img {
-  max-width: 200px;
+  max-width: 800px;
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .bio {
-  margin-left: 20px;
+  margin-left: 30px;
   text-align: left;
 }
 
 .bio h3 {
-  font-size: 24px;
+  font-size: 30px;
   color: #333;
 }
 
 .bio p {
-  font-size: 16px;
+  font-size: 24px;
   color: #666;
 }
 #biography {
@@ -224,16 +224,16 @@ body {
 
 .biography-text {
   text-align: left;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .biography-text h3 {
-  font-size: 24px;
+  font-size: 28px;
   color: #333;
 }
 
 .biography-text p {
-  font-size: 16px;
+  font-size: 20px;
   color: #666;
 }
 
@@ -248,7 +248,7 @@ body {
 
 .hobbies ul {
   list-style-type: disc;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .hobbies li {
