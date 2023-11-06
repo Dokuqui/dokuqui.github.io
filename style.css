@@ -90,12 +90,10 @@ img {
 
 #contact h2 {
   font-size: 28px;
-  color: #333;
 }
 
 #contact p {
   font-size: 16px;
-  color: #666;
 }
 .email-address {
   color: #0073e6;
@@ -113,7 +111,6 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #333;
 }
 
 input[type="text"],
@@ -132,7 +129,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #333;
+  background-color: #0074d9;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -142,7 +139,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #555;
+  background-color: #0074d9;
 }
 
 .error {
@@ -176,12 +173,10 @@ input[type="submit"]:hover {
 .experience h3 {
   font-size: 18px;
   margin: 0;
-  color: #333;
 }
 
 .experience p {
   font-size: 14px;
-  color: #666;
 }
 
 #about {
@@ -191,7 +186,6 @@ input[type="submit"]:hover {
 
 #about h2 {
   font-size: 28px;
-  color: #333;
 }
 
 .about-content {
@@ -215,12 +209,10 @@ input[type="submit"]:hover {
 
 .bio h3 {
   font-size: 30px;
-  color: #333;
 }
 
 .bio p {
   font-size: 24px;
-  color: #666;
 }
 #biography {
   padding: 40px 0;
@@ -229,7 +221,6 @@ input[type="submit"]:hover {
 
 #biography h2 {
   font-size: 28px;
-  color: #333;
 }
 
 .biography-content {
@@ -246,12 +237,10 @@ input[type="submit"]:hover {
 
 .biography-text h3 {
   font-size: 28px;
-  color: #333;
 }
 
 .biography-text p {
   font-size: 20px;
-  color: #666;
 }
 
 .hobbies {
@@ -260,7 +249,6 @@ input[type="submit"]:hover {
 
 .hobbies h3 {
   font-size: 20px;
-  color: #333;
 }
 
 .hobbies ul {
@@ -270,7 +258,6 @@ input[type="submit"]:hover {
 
 .hobbies li {
   font-size: 16px;
-  color: #666;
 }
 
 #portfolio {
@@ -280,7 +267,6 @@ input[type="submit"]:hover {
 
 #portfolio h2 {
   font-size: 28px;
-  color: #333;
 }
 
 .project {
@@ -293,12 +279,10 @@ input[type="submit"]:hover {
 
 .project h3 {
   font-size: 20px;
-  color: #333;
 }
 
 .project p {
   font-size: 16px;
-  color: #666;
 }
 
 .project a {
