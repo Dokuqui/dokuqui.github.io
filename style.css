@@ -84,7 +84,6 @@ button:hover {
 }
 
   #contact {
-   background-color: white;
    padding: 40px 0;
    text-align: center;
 }
@@ -163,7 +162,6 @@ button:hover {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f4f4f4;
   text-align: center;
 }
 
@@ -187,7 +185,6 @@ button:hover {
 }
 
 #about {
-  background-color: #f4f4f4;
   padding: 40px 0;
   text-align: center;
 }
@@ -226,7 +223,6 @@ button:hover {
   color: #666;
 }
 #biography {
-  background-color: #f4f4f4;
   padding: 40px 0;
   text-align: center;
 }
@@ -278,7 +274,6 @@ button:hover {
 }
 
 #portfolio {
-  background-color: #f4f4f4;
   padding: 40px 0;
   text-align: center;
 }
@@ -291,7 +286,6 @@ button:hover {
 .project {
   margin: 20px 0;
   padding: 20px;
-  background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
