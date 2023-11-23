@@ -9,60 +9,69 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
-  <title>Portfolio</title>
+  <title>Certificates</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body cz-shortcut-listen="true" style="text-align:center">
   <header class="d-flex justify-content-center py-3">
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="./Expériences.html" class="nav-link">Expériences</a></li>
-      <li class="nav-item"><a href="./Formations.html" class="nav-link">Formations</a></li>
-      <li class="nav-item"><a href="./Portfolio.html" class="nav-link active" aria-current="page">Portfolio</a></li>
-      <li class="nav-item"><a href="./Certificates.html" class="nav-link">Certificates</a></li>
-      <li class="nav-item"><a href="./About Me.html" class="nav-link">About Me</a></li>
-      <li class="nav-item"><a href="./Contact.html" class="nav-link">Contact</a></li>
-    </ul>
-  </header>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="./Expériences.html" class="nav-link">Expériences</a></li>
+        <li class="nav-item"><a href="./Formations.html" class="nav-link">Formations</a></li>
+        <li class="nav-item"><a href="./Portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Certificates</a></li>
+        <li class="nav-item"><a href="./About Me.html" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="./Contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-  <div>
-    <button onclick="darkMode()" class="scrolling-button">Mode</button>
-  </div>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
 
-  <section id="portfolio">
-    <div class="container">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <h3>Projet 1</h3>
-            <p>Personnel Web-site</p>
-            <a href="https://github.com/Dokuqui/dokuqui.github.io" target="_blank">GitHub Link</a>
-            <a href="https://dokuqui.github.io/index.html">Preview</a>
-            <img src="./image/Project1.png" alt="Project 1 Preview Personnel Web-site">
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>KeeperNote(Clone of Google Keep React Project)</p>
-            <a href="https://github.com/Dokuqui/KeeperNote" target="_blank">GitHub Link</a>
-            <a href="https://codesandbox.io/p/github/Dokuqui/KeeperNote">Preview</a>
-            <img src="./image/Project2.png" alt="Project 2 Preview KeeperNote">
-        </div>
-        <div class="project">
-          <h3>Project 3</h3>
-          <p>Different Small Front-End Projects</p>
-          <a href="https://github.com/Dokuqui/Front-End-Portf" target="_blank">GitHub Link</a>
-          <img src="./image/Project3.png" alt="Project 3 Preview Small Front-End-Portf">
-      </div>
-      <div class="project">
-          <h3>Project 4</h3>
-          <p>Project overview and description.</p>
-          <a href="https://github.com/yourusername/project2" target="_blank">GitHub Link</a>
-          <a href="project4.html">Preview</a>
-          <img src="project4-preview.jpg" alt="Project 4 Preview">
-      </div>
-        <!-- Add more project entries as needed -->
+        .certificate {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .certificate img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .certificate h2 {
+            color: #0074d9;
+        }
+
+        .certificate p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Your Certificates</h1>
+
+    <div class="certificate">
+        <img src="certificate1.jpg" alt="Certificate 1">
+        <h2>Certificate Title 1</h2>
+        <p>Description of the certificate and any additional details.</p>
     </div>
-</section>
+
+    <div class="certificate">
+        <img src="certificate2.jpg" alt="Certificate 2">
+        <h2>Certificate Title 2</h2>
+        <p>Description of the certificate and any additional details.</p>
+    </div>
 
     <footer class="footer navbar-fixed-bottom row row-cols-1">
         <div class="d-md-flex justify-md-content-end">
@@ -80,8 +89,8 @@
             </svg><use xlink:href="#GitHub"></use></svg></a></li>
           </ul>
       </footer>
-
+  
       <script src="script.js"></script>
-      
-      </body>
-  </html>
+
+</body>
+</html>
