@@ -322,6 +322,10 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
+.certificate h2 {
+  font-size: 28px;
+}
+
 .certificate img {
   max-width: 100%;
   height: auto;
