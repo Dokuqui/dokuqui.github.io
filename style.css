@@ -153,6 +153,10 @@ input[type="submit"]:hover {
   margin-top: 5px;
 }
 
+.experience h2 {
+  font-size: 28px;
+}
+
 .experience-list {
   display: flex;
   flex-wrap: wrap;
