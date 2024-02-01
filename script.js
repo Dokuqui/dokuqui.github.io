@@ -27,3 +27,21 @@ if (mode == 'light') {
   document.documentElement.classList.remove("dark");
   document.documentElement.classList.add("light");
 }
+
+function createDownloadButton() {
+  // Create a button element
+  const downloadButton = document.createElement("a");
+
+  // Set the button attributes
+  downloadButton.href = "./image/CV Semenov Illia Développeur.pdf"; // Replace with the actual path to your CV file
+  downloadButton.download = "Semenov_Illia_CV.pdf"; // Replace with the desired name for the downloaded file
+  downloadButton.textContent = "Download CV";
+  downloadButton.classList.add("btn", "btn-info");
+
+  // Append the button to the downloadButtonContainer
+  const downloadButtonContainer = document.getElementById("downloadButtonContainer");
+  downloadButtonContainer.appendChild(downloadButton);
+}
+
+// Call the function to create the download button
+createDownloadButton();
