@@ -41,3 +41,13 @@ function createDownloadButton() {
 }
 
 createDownloadButton();
+
+function updateCopyrightYear() {
+  const currentYear = new Date().getFullYear();
+  const copyrightElement = document.getElementById("copyright");
+  const copyrightText = copyrightElement.textContent;
+  const updatedCopyrightText = copyrightText.replace(/\d{4}/, currentYear);
+  copyrightElement.textContent = updatedCopyrightText;
+}
+
+window.onload = updateCopyrightYear;
